@@ -1,8 +1,8 @@
-# ERC721 101
+# ERC721 
 
 ## Introduction
-Welcome! This is an automated workshop that will explain how to deploy an ERC721 token, and customize it to perform specific functions.
-It is aimed at developpers that have never written code in Solidity, but who understand its syntax.
+Welcome! This is an automated workshop that I did to improve my experience with solidity. 
+Below you will find the instructions that I followed in the realization of this mini project.
 
 ## How to work on this TD
 ### Introduction
