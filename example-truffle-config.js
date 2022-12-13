@@ -44,9 +44,21 @@ module.exports = {
       provider: function() {
         return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/" + infuraApiKey)
       },
+<<<<<<< Updated upstream:example-truffle-config.js
       network_id: 4,
       networkCheckTimeout: 30000
     }
+=======
+      network_id: '5', // eslint-disable-line camelcase
+      gas: 5000000,
+      gasPrice: 10000000000,
+    },
+    ganache: {
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 7545,            // Standard Ethereum port (default: none)
+      network_id: "*"        // Any network (default: none)
+     }
+>>>>>>> Stashed changes:Mon-td/truffle-config.js
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
     // You should run a client (like ganache-cli, geth or parity) in a separate terminal
